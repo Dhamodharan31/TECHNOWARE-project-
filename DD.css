@@ -1,0 +1,496 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* header */
+.header
+{
+    height: 70px;
+    width: 100%;
+    /* background-color: rgb(12, 12, 12);  */
+    display: flex;
+    position: fixed;
+}
+.logo
+{
+    height: 70px;
+    width: 6%;
+    /* background-color: burlywood; */
+    margin-left: 10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.logopic
+{
+    height:50px;
+    width:50px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+}
+.logotext
+{
+    height:70px;
+    width:12%;
+    /* background-color: cyan; */
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-weight: bold; */
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(250, 245, 250);
+}
+.nav
+{
+    height: 70px;
+    width:35%;
+    /* background-color: lightskyblue; */
+    margin-left: 600px;
+    display: flex;
+}
+.nav-item
+{
+ height: 70px;
+ width:30%;
+ /* background-color: limegreen;  */
+ font-size: 20px;
+ font-family: segoe ui;
+ text-align: center;
+ line-height: 70px;
+ color:white;
+ cursor: pointer;
+ transition: 0.5s;
+}
+
+.nav-item:hover
+{
+    color:rgb(248, 152, 216);
+    /* background-color:rgb(255, 154, 250); ; */
+}
+
+/* header end */
+/* banner */
+.banner
+{
+    height: 640px;
+    width: 100%;
+    background-color:black;
+    background-image: url(./images/techno.jpeg);
+}
+.overlay
+{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(95, 6, 61, 0.4);
+    display: flex;
+    align-items: center;
+    
+}
+.banner-text
+{
+    height: 250px;
+    width: 38%;
+    background-color:rgba(241, 247, 246,0.8);;
+    display: flex;
+    align-items: center;
+}
+.padd
+{
+    padding:30px ;
+}
+.banner-title
+{
+    font-family: segoe ui;
+    margin-bottom: 50px;
+}
+.banner-btn
+{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 25px;
+    background-color: transparent;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid red;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.banner-btn:hover
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(161, 40, 172);
+}
+
+/* services */
+.services
+{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: rgba(190, 147, 247, 0.87);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.service-cont
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    /* justify-content: center; */
+    /* background-color:yellow; */
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.service
+{
+    height: 250px;
+    width: 40%;
+    /* background-color: rgb(255, 255, 255); */
+    display: flex;
+    margin-top: 20px;
+}
+
+.service-img
+{
+    height: 250px;
+    width: 55%;
+    /* background-color: yellow; */
+    overflow: hidden;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+
+    
+}
+.service-detail
+{
+    height: 250px;
+    width: 45%;
+    background-color:rgba(245, 241, 241, 0.925);
+    display: flex;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+
+}
+.serc-padd
+{
+    padding-left: 6px;
+    padding-top: 20px;
+}
+.serc-btn
+{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 25px;
+    background-color: transparent;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid red;
+    margin-top: 10px;
+    margin-left: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.serc-btn:hover
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(219, 142, 226);
+}
+
+.about
+{
+    padding-top:50px;
+    padding-bottom: 50px;
+    background-color: gray;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: row;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+/* css for aboutus */
+.aboutus
+{
+    width: 100%;
+    /* background-color: gray; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    font-family: helvetica;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(160, 18, 89);
+}
+.about-cont
+{
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 35px;
+    color: black;
+}
+
+/* css for highlights */
+.highlights
+{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(253, 199, 249);
+    background-image: url(./images/high-bg.jpg);
+}
+.highlights-cont
+{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* background-color: red; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.highlight-in
+{
+    width: 15%;
+    height: 100px;
+    background-color:red;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    font-family: helvetica;
+}
+.highlight-in:hover
+{
+    border-radius: 70px;
+    background-color:white;
+    color: rgb(117, 17, 17);
+}
+/* css for intern */
+.intern
+{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.intern-cont
+{
+    width: 90%;
+    height:150px;
+    /* background-color: darkkhaki; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Segoe UI';
+}
+.int-btn
+{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 25px;
+    background-color: transparent;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid rgb(12, 14, 12);
+    margin-top: 50px;
+    margin-left: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.int-btn:hover
+{
+    background-color: black;
+    color: cornsilk;
+}
+/* css for portfolio */
+.portfolio
+{
+    width: 100%;
+    background-color: rgb(204, 248, 248);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center ;
+}
+.port-cont
+{
+    width: 90%;
+    
+    background-color: brown;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.port-in
+{
+    width: 25%;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    color: cyan;
+    
+    
+}
+.project
+{
+    width: 100%;
+    height: 75px;
+    background-color:rgba(45, 82, 82, 0.795) ;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 238, 238);
+    font-family:Segoe UI ;
+    font-size: 25px;
+    cursor: pointer;
+    transition: .5s;
+}
+.project:hover
+{
+    height: 160px;
+}
+.project-1
+{
+    background-image: url(https://images.pexels.com/photos/669619/pexels-photo-669619.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+    display: flex;
+    align-items:flex-end;
+}
+.project-2
+{
+    background-image: url(https://images.pexels.com/photos/442152/pexels-photo-442152.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+    align-items: flex-start;
+}
+.project-3
+{
+    background-image: url(https://images.pexels.com/photos/1038916/pexels-photo-1038916.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500s);
+    background-size: cover;
+    display: flex;
+    align-items:flex-end;
+}
+.project-4
+{
+    background-image: url(https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+    align-items: flex-start;
+}
+.project-5
+{
+    background-image: url(https://images.pexels.com/photos/267394/pexels-photo-267394.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+    display: flex;
+    align-items:flex-end;
+}
+.project-6
+{
+    background-image: url(https://images.pexels.com/photos/2225617/pexels-photo-2225617.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+    align-items: flex-start;
+}
+.project-7
+{
+    background-image: url(https://images.pexels.com/photos/1105379/pexels-photo-1105379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+.project-8
+{
+    background-image:url(https://images.pexels.com/photos/3784221/pexels-photo-3784221.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+    align-items: flex-start;
+}
+
+.project_title {
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 150px;
+    text-indent: 30px;
+    line-height: 200px;
+    background-color: rgba(18, 97, 172, 0.7);
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.project_title:hover {
+    height: 100%;
+}
+
+/* css for footer */
+.footer
+{
+    width: 100%;
+    background-color: rgb(20, 20, 20);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.foot-cont
+{
+    width: 95%;
+    height:200px;
+    /* background-color: cornsilk; */
+    display: flex;
+    justify-content: center;
+}
+.foot-det
+{
+    width: 45%;
+    height: 200px;
+    /* background-color: black; */
+    color: rgb(240, 234, 239);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+.foot-logo
+{
+    color: blanchedalmond;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+}
+.foot-pic
+{
+    width:40%;
+    height: 100px;
+    display: flex;
+    border-radius: 40px;
+}
+li 
+{
+    list-style-type: none;
+}
+.first{
+    font-size: 23px;
+}
+.social
+{
+    border-image-width: 50px;
+    height: 50px;
+    background-size: cover;
+}
